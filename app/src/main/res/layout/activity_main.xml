@@ -78,4 +78,38 @@
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/rl_reporter_three"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_reporter_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:text="主持人小文"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:text="5分钟前"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_reporter_three"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:text="我是测试君1111啊哈啊哈哈哈啊哈哈啊哈哈啊哈哈啊哈哈哈哈哈"/>
+
+    </RelativeLayout>
+
 </LinearLayout>
