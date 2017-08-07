@@ -41,4 +41,4 @@ rlReporter.setBackgroundDrawable(tagDrawable1);
 ```
 
 ## Demo
-![](https://github.com/shucc/TagDrawable/blob/master/demo/demo.jpg)
+![](https://raw.githubusercontent.com/shucc/TagDrawable/master/demo/demo.jpg)
