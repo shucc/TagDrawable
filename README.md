@@ -14,7 +14,7 @@ allprojects {
 }
 ```
 
-在使用库的module中添加,为避免重复引用,推荐使用exclude::
+在使用库的module中添加:
 ```groovy
 dependencies {
     implementation 'androidx.annotation:annotation:1.1.0'
