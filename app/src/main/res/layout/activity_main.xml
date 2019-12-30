@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="16dp">
 
     <RelativeLayout
         android:id="@+id/rl_reporter"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
         android:paddingLeft="16dp"
+        android:paddingTop="8dp"
         android:paddingRight="8dp"
         android:paddingBottom="8dp">
 
@@ -19,25 +18,25 @@
             android:id="@+id/text_reporter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="主持人小文"
             android:textColor="@android:color/holo_red_dark"
-            android:textSize="14sp"
-            android:text="主持人小文"/>
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:textSize="14sp"
-            android:text="5分钟前"/>
+            android:text="5分钟前"
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_reporter"
             android:layout_marginTop="8dp"
-            android:textSize="14sp"
+            android:text="我是测试君1111啊哈啊哈哈哈啊哈哈啊哈哈啊哈哈啊哈哈哈哈哈"
             android:textColor="@android:color/black"
-            android:text="我是测试君1111啊哈啊哈哈哈啊哈哈啊哈哈啊哈哈啊哈哈哈哈哈"/>
+            android:textSize="14sp" />
 
     </RelativeLayout>
 
@@ -46,8 +45,8 @@
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:paddingTop="8dp"
         android:paddingLeft="8dp"
+        android:paddingTop="8dp"
         android:paddingRight="16dp"
         android:paddingBottom="8dp">
 
@@ -55,26 +54,26 @@
             android:id="@+id/text_reporter_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="主持人小文"
             android:textColor="@android:color/white"
-            android:textSize="14sp"
-            android:text="主持人小文"/>
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:textSize="14sp"
+            android:text="5分钟前"
             android:textColor="@android:color/white"
-            android:text="5分钟前"/>
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_reporter_two"
             android:layout_marginTop="8dp"
-            android:textSize="14sp"
+            android:text="我是测试君1111啊哈啊哈哈哈啊哈哈啊哈哈啊哈哈啊哈哈哈哈哈"
             android:textColor="@android:color/white"
-            android:text="我是测试君1111啊哈啊哈哈哈啊哈哈啊哈哈啊哈哈啊哈哈哈哈哈"/>
+            android:textSize="14sp" />
 
     </RelativeLayout>
 
@@ -89,26 +88,26 @@
             android:id="@+id/text_reporter_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="主持人小文"
             android:textColor="@android:color/white"
-            android:textSize="14sp"
-            android:text="主持人小文"/>
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:textSize="14sp"
+            android:text="5分钟前"
             android:textColor="@android:color/white"
-            android:text="5分钟前"/>
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_reporter_three"
             android:layout_marginTop="8dp"
-            android:textSize="14sp"
+            android:text="我是测试君1111啊哈啊哈哈哈啊哈哈啊哈哈啊哈哈啊哈哈哈哈哈"
             android:textColor="@android:color/white"
-            android:text="我是测试君1111啊哈啊哈哈哈啊哈哈啊哈哈啊哈哈啊哈哈哈哈哈"/>
+            android:textSize="14sp" />
 
     </RelativeLayout>
 

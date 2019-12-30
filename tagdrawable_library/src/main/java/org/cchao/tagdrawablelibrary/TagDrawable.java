@@ -7,8 +7,9 @@ import android.graphics.Path;
 import android.graphics.PixelFormat;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntRange;
+
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntRange;
 
 /**
  * Created by shucc on 17/7/7.

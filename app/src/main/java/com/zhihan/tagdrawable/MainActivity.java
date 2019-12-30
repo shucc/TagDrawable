@@ -2,8 +2,9 @@ package com.zhihan.tagdrawable;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.RelativeLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import org.cchao.tagdrawablelibrary.TagDrawable;
 
@@ -20,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        rlReporter = (RelativeLayout) findViewById(R.id.rl_reporter);
-        rlReporterTwo = (RelativeLayout) findViewById(R.id.rl_reporter_two);
-        rlReporterThree = (RelativeLayout) findViewById(R.id.rl_reporter_three);
+        rlReporter = findViewById(R.id.rl_reporter);
+        rlReporterTwo = findViewById(R.id.rl_reporter_two);
+        rlReporterThree = findViewById(R.id.rl_reporter_three);
 
         float oneDP = getResources().getDimension(R.dimen.oneDP);
 

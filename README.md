@@ -17,10 +17,8 @@ allprojects {
 在使用库的module中添加,为避免重复引用,推荐使用exclude::
 ```groovy
 dependencies {
-    compile 'com.android.support:support-annotations:latest.version'
-    compile ('com.github.shucc:TagDrawable:v1.0') {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    }
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'com.github.shucc:TagDrawable:1.1'
 }
 ```
 
